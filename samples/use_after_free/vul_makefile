@@ -1,0 +1,20 @@
+IDIR = ./include
+ODIR = obj
+CFLAGS = -I$(IDIR)
+CC = gcc
+
+_DEPS = 
+DEPS = $(patsubst %, $(IDIR)/%, $(_DEPS))
+
+_OBJ = uaf.o
+OBJ = $(patsubst %, $(ODIR)/%, $(_OBJ))
+
+$(ODIR)/%.o: %.c $(DEPS)
+	$(CC) -c -g -o $@ $< $(CFLAGS) 
+
+vul: $(OBJ)
+	$(CC) -g -o $@ $^ $(CFLAGS) 
+
+.PHONY: clean
+clean: 
+	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~

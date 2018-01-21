@@ -1,0 +1,16 @@
+[x] Opening connection to 127.0.0.1 on port 19011
+[x] Opening connection to 127.0.0.1 on port 19011: Trying 127.0.0.1
+[+] Opening connection to 127.0.0.1 on port 19011: Done
+[*] '/root/CSTE1.0/samples/fop/vul'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    No canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+0x400700
+0x400952
+0x4007f6
+0x40082c
+0x40083d
+0x400811
+[*] Closed connection to 127.0.0.1 port 19011

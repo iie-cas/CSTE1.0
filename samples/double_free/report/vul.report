@@ -1,0 +1,90 @@
+accept client 127.0.0.1
+What is your choice?(m/f/e/p)
+m
+malloc a heap
+enter the size of chunk
+128
+enter your code
+aaaaaa
+ptr adress is 0x2299010
+new OK!
+What is your choice?(m/f/e/p)
+m
+malloc a heap
+enter the size of chunk
+128
+enter your code
+bbbbbb
+ptr adress is 0x22990a0
+new OK!
+What is your choice?(m/f/e/p)
+f
+which heap do you want to free?
+0
+free Ok!
+What is your choice?(m/f/e/p)
+f
+which heap do you want to free?
+1
+free Ok!
+What is your choice?(m/f/e/p)
+m
+malloc a heap
+enter the size of chunk
+272
+enter your code
+
+ptr adress is 0x2299010
+new OK!
+What is your choice?(m/f/e/p)
+m
+malloc a heap
+enter the size of chunk
+24
+enter your code
+touch ./output/out.txt
+ptr adress is 0x2299130
+new OK!
+What is your choice?(m/f/e/p)
+f
+which heap do you want to free?
+1
+free Ok!
+What is your choice?(m/f/e/p)
+e
+which heap do you want to edit?
+0
+str:
+edit Ok!
+What is your choice?(m/f/e/p)
+p
+which heap do you want to show?
+0
+content is ðš¡í 
+print end
+content is140658595202288
+print end
+
+What is your choice?(m/f/e/p)
+m
+malloc a heap
+enter the size of chunk
+128
+enter your code
+free_adr:140658595202288aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa€
+ptr adress is 0x2299020
+new OK!
+What is your choice?(m/f/e/p)
+e
+which heap do you want to edit?
+0
+str:
+edit Ok!
+What is your choice?(m/f/e/p)
+f
+which heap do you want to free?
+3
+free Ok!
+What is your choice?(m/f/e/p)
+
+end

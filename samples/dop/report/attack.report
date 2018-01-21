@@ -1,0 +1,18 @@
+[*] '/root/CSTE1.0/samples/dop/vul'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+[x] Opening connection to 127.0.0.1 on port 41037
+[x] Opening connection to 127.0.0.1 on port 41037: Trying 127.0.0.1
+[+] Opening connection to 127.0.0.1 on port 41037: Done
+old_value_addr:0x7fff89bf9298
+hello from f1
+
+system_addr:0x7fc38df8b390
+hello from f2
+
+hello from f2
+
+[*] Closed connection to 127.0.0.1 port 41037

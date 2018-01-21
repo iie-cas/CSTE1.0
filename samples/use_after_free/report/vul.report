@@ -1,0 +1,68 @@
+accept client 127.0.0.1
++++++++++++++++++++++++++++++++
+So, let`s crash the world 
++++++++++++++++++++++++++++++++
+1.create string
+2.delete string
+3.quit
+pls give string size:8
+str:The string id is 0
+the string len is 8
+the string0 at 0x1a10010
+1.create string
+2.delete string
+3.quit
+pls give string size:8
+str:The string id is 1
+the string len is 8
+the string1 at 0x1a10040
+1.create string
+2.delete string
+3.quit
+pls give string size:8
+str:The string id is 2
+the string len is 8
+the string2 at 0x1a10070
+1.create string
+2.delete string
+3.quit
+pls give me the string id you want ro delete
+id:0
+free plt is 0x400950
+1.create string
+2.delete string
+3.quit
+pls give me the string id you want ro delete
+id:1
+free plt is 0x400950
+1.create string
+2.delete string
+3.quit
+pls give me the string id you want ro delete
+id:0
+free plt is 0x400950
+1.create string
+2.delete string
+3.quit
+pls give string size:32
+str:The string id is 0
+the string len is 32
+the string0 at 0x1a10010
+1.create string
+2.delete string
+3.quit
+pls give me the string id you want ro delete
+id:1
+aaaaaaaaaaaaaaaabbbbbbbb€	@
+free plt is 0x400950
+1.create string
+2.delete string
+3.quit
+invalid cmd
+1.create string
+2.delete string
+3.quit
+invalid cmd
+1.create string
+2.delete string
+3.quit

@@ -1,0 +1,19 @@
+basp
+dop.c
+exploit
+include
+my.conf
+obj
+output
+report
+vul
+vul_makefile
+accept client 127.0.0.1
+limit is 1
+f1
+limit is 7
+limit is 7
+f2
+limit is 8
+f2
+limit is 8

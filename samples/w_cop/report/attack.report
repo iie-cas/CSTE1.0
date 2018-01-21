@@ -1,0 +1,5 @@
+[x] Opening connection to 127.0.0.1 on port 41040
+[x] Opening connection to 127.0.0.1 on port 41040: Trying 127.0.0.1
+[+] Opening connection to 127.0.0.1 on port 41040: Done
+[31;1mDeprecation warning: Use main_object instead of main_bin[0m
+[*] Closed connection to 127.0.0.1 port 41040
