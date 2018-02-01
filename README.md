@@ -21,7 +21,7 @@ sudo pip install virtualenv
 
 // 切到 CSTE 目录下
 // 创建一个虚拟环境，--no-site-packages参数 指定已经安装到系统 Python 环境中的所有第三方包都不会复制过来
-virtualenv --no-site-packages venv
+virtualenv --no-site-packages --python=python2.7 venv
 
 // 激活虚拟环境
 source venv/bin/activate
