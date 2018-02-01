@@ -16,35 +16,35 @@
 
 ## 部署
 
-// 安装 virtualenv
+### 配置 CSTE 运行环境
+```
+# 安装 virtualenv
 sudo pip install virtualenv
 
-// 切到 CSTE 目录下
-// 创建一个虚拟环境，--no-site-packages参数 指定已经安装到系统 Python 环境中的所有第三方包都不会复制过来
+# 切到 CSTE 目录下，创建一个虚拟环境，--no-site-packages 参数 指定已经安装到系统 Python 环境中的所有第三方包都不会复制过来
 virtualenv --no-site-packages --python=python2.7 venv
 
-// 激活虚拟环境
+# 激活虚拟环境
 source venv/bin/activate
 
-// 安装依赖包
+# 安装依赖包
 pip install cle pwn
 
-// 尝试执行
+# 尝试执行
 ./run.sh
 
-// 退出虚拟环境
+# 退出虚拟环境
 deactivate
 
-//注： 以后每次如果要使用 CSTE 先进入 CSTE 根目录，然后执行 source venv/bin/activate 激活虚拟环境，然后再运行 ./run.sh，试运行 run all 命令，结束后先使用 bye 命令退出 CSTE 命令行界面，然后使用 deactivate 命令退出虚拟环境即可。
-
-// BASP
+#注： 以后每次如果要使用 CSTE 先进入 CSTE 根目录，然后执行 source venv/bin/activate 激活虚拟环境，然后再运行 ./run.sh，试运行 run all 命令，结束后先使用 bye 命令退出 CSTE 命令行界面，然后使用 deactivate 命令退出虚拟环境即可。
+```
+### BASP
 
 其中 BASP 分析工具位于 CSTE 根目录下的 tools 文件夹下，类型为二进制可执行文件，不需要安装。
 
-// QEMU
+### 安装 QEMU
 
 [参考链接](https://github.com/sonnylier/qemu_eclipse)
-
 
 ## CSTE 整体目录结构
 
