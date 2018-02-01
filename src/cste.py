@@ -114,7 +114,7 @@ class Sample:
         self.obj_files = []  # 所有的中间文件的文件名
         self.cf = ConfigFileReader(self.conf_file)
         try:
-	    self.vul = Vul(self.cf.secs['vul'])
+            self.vul = Vul(self.cf.secs['vul'])
         except:
             print('%s 配置文件有错误' %(self.name))
         self.attack = Attack(self.cf.secs['attack'])
